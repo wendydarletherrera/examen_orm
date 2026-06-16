@@ -6,8 +6,9 @@ import random
 # CONEXIÓN A MONGO ATLAS
 # Reemplaza la cadena con la tuya copiada de Atlas
 # ============================================================
-MONGO_URI = "mongodb+srv://examen_user:ExamenBD2_2026!@cluster0.lvjxw22.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URI = "mongodb+srv://wendydarletherrera_db_user:9dLrhFrikqoknCXa@cluster0.lvjxw22.mongodb.net/?retryWrites=true&w=majority"
 
+# conectar al cluster
 client  = MongoClient(MONGO_URI)
 db      = client["universidad_virtual"]
 logs    = db["logs_sistema"]

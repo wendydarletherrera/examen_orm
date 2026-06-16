@@ -1,7 +1,6 @@
 from pymongo import MongoClient
 
-MONGO_URI = "mongodb+srv://examen_user:ExamenBD2_2026!@cluster0.xxxxxx.mongodb.net/?retryWrites=true&w=majority"
-
+MONGO_URI = "mongodb+srv://wendydarletherrera_db_user:9dLrhFrikqoknCXa@cluster0.lvjxw22.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(MONGO_URI)
 db     = client["universidad_virtual"]
 logs   = db["logs_sistema"]
